@@ -8,8 +8,8 @@ import UAuth from '@uauth/js'
 
 const uauth = new UAuth({
     clientID: "f1607235-63e9-4309-a5d3-7c0adda481ed",
-    redirect_uri: "http://localhost:3000/",
-    post_logout_redirect_uri: "http://localhost:3000/",
+    redirect_uri: "https://fracto-farm.netlify.app/",
+    post_logout_redirect_uri: "https://fracto-farm.netlify.app/",
     scope: 'openid wallet',
 })
 
